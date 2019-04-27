@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/opt/mysql-client/bin:/usr/local/opt/gettext/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/cagataycali/Library/Android/sdk/tools:/Users/cagataycali/Library/Android/sdk/platform-tools:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOTEMPTY: directory not empty, rmdir '/Users/cagataycali/Library/Caches/Yarn/v4/npm-core-js-3.0.1-1343182634298f7f38622f95e73f54e48ddf4738/node_modules/core-js'
+
+npm manifest: 
+  {
+    "name": "functions",
+    "description": "Cloud Functions for Firebase",
+    "dependencies": {
+      "es6-promise": "^4.2.6",
+      "isomorphic-fetch": "^2.2.1",
+      "lodash": "^4.17.11",
+      "nuxt": "^2.6.3",
+      "vue": "^2.6.10",
+      "vue-meta": "^1.6.0",
+      "vue-router": "^3.0.6",
+      "vuex": "^3.1.0",
+      "babel-runtime": "^6.26.0",
+      "cors": "^2.8.5",
+      "express": "^4.16.4",
+      "firebase-admin": "~6.0.0",
+      "firebase-functions": "^2.1.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-plugin-transform-object-rest-spread": "^6.26.0",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.7.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
